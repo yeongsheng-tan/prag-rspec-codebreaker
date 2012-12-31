@@ -1,0 +1,15 @@
+/home/yeongsheng/.rbenv/versions/1.9.3-p327/bin/ruby extconf.rb 
+checking for rb_trap_immediate in ruby.h,rubysig.h... no
+checking for rb_thread_blocking_region()... yes
+checking for inotify_init() in sys/inotify.h... yes
+checking for writev() in sys/uio.h... yes
+checking for rb_thread_check_ints()... yes
+checking for rb_time_new()... yes
+checking for sys/event.h... no
+checking for epoll_create() in sys/epoll.h... yes
+creating Makefile
+
+make
+compiling kb.cpp
+make: g++: Command not found
+make: *** [kb.o] Error 127
